@@ -1,19 +1,12 @@
-# 📊 Just-Store Sales Dashboard
+# Just-Store Sales Dashboard
 
 Welcome to the **Just-Store Dashboard** – a comprehensive Tableau-powered data visualization and analytics interface designed for executive-level insights into customer activity, order flow, profit generation, and category-wise sales performance.
 
 ---
 
-## 📂 Dashboard Overview
+## Dashboard Overview
+<img width="1918" height="896" alt="Dashboard" src="https://github.com/user-attachments/assets/2ceb8090-7f08-44bd-bcfd-ac0f4226f052" />
 
-The dashboard is divided into two main views:
-
-### 🔹 Executive View (Visual Summary)
-- **Customers**: 247
-- **Orders**: 296
-- **Total Profit**: `$23K`
-- **Total Sales**: `$181K`
-- **Total Quantity Sold**: 3,053 units
 
 #### Key Visual Elements:
 - **Sales by Region (Bar Chart)**:
@@ -42,11 +35,9 @@ The dashboard is divided into two main views:
 
 ### 🔹 Table View (Detailed Data Table)
 A detailed customer-level breakdown including:
-- Customer Name
-- Order ID
-- Order Count
-- Profit per Customer
-- Sales per Customer
+
+<img width="1918" height="897" alt="Table view" src="https://github.com/user-attachments/assets/fa4a45aa-0081-4d62-87fd-5ff1c97ec225" />
+
 
 #### Notable Insights:
 - **Top Performers by Profit**:
@@ -60,7 +51,7 @@ A detailed customer-level breakdown including:
 
 ---
 
-## 📌 KPIs Summary
+## KPIs Summary
 
 | Metric        | Value   |
 |---------------|---------|
@@ -72,7 +63,7 @@ A detailed customer-level breakdown including:
 
 ---
 
-## 📈 Performance Observations
+## Performance Observations
 
 - **Technology** is the leading sales & profit category.
 - **West region** dominates in regional sales (nearly 60% of total).
@@ -81,7 +72,7 @@ A detailed customer-level breakdown including:
 
 ---
 
-## 🧠 Inferred Business Insights
+## Inferred Business Insights
 
 - Profit margins on Furniture are **significantly lower** than Technology.
 - Several high-spend customers are **unprofitable**, which could indicate:
@@ -91,7 +82,7 @@ A detailed customer-level breakdown including:
 
 ---
 
-## 🛠 Suggestions or Improvements
+## Suggestions or Improvements
 
 1. **Introduce Profit Margin KPI** for more meaningful profitability analysis.
 2. **Customer Segmentation** dashboard (e.g., High Profit vs High Loss) for targeted strategy.
@@ -101,50 +92,18 @@ A detailed customer-level breakdown including:
 
 ---
 
-## 🧭 Dashboard Contents (From .twbx)
-
-- **Dashboards**:
-  - Executive View
-  - Table View
-
-- **Worksheets**:
-  - Customer KPI
-  - Order KPI
-  - Profit KPI
-  - Sales KPI
-  - Quantity KPI
-  - Sales Over Time
-  - Sales & Profit by Category
-  - Sales Distribution by Category
-
-- **Datasource**:
-  - federated.1wcct3s0cvifcj1bc038x126xtdy
-
----
-
-## 📹 Video Context Summary
+## Video Context Summary
 
 The walkthrough video reinforces:
 - Interactive controls (Region/Year filters)
 - Highlighting Technology as a consistent top-performer
 - Focus on September spike with further drill-down potential
 
----
-
-## 🗂️ Frame Captures from Walkthrough Video
-
-Frames extracted at regular intervals to support validation of interactive use:
-- `frame_0.jpg`: Initial KPI overview
-- `frame_60.jpg`: Category pie chart hover
-- `frame_120.jpg`: Sales trend highlight
-- `frame_180.jpg`: Table filter use
-- `frame_240.jpg`: Profit sorting in table
-
-> These can be reviewed in the `/frames/` folder for reference.
+  🎥 
 
 ---
 
-## ✅ How to Contribute
+## How to Contribute
 
 Feel free to:
 - Fork this repo and improve the dashboard with suggested features
@@ -154,12 +113,3 @@ Feel free to:
 
 ---
 
-## 📎 File Contents
-
-- `Sales Dashboard.twbx` - Tableau Packaged Workbook
-- `Dashboard.png` - Executive View Snapshot
-- `Table View.png` - Detailed Data Table Snapshot
-- `Video.mp4` - Dashboard Walkthrough
-- `/frames/` - Extracted video frames
-
----
